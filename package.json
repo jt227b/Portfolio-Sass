@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio-Sass",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jt227b/Portfolio-Sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jt227b/Portfolio-Sass/issues"
+  },
+  "homepage": "https://github.com/jt227b/Portfolio-Sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
