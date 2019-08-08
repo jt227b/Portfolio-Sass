@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7e09908c25.js"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Jose G. Torres | UI/UX Developer</title>
+  </head>
 
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <!-- Font Awesome -->
-     <script src="https://kit.fontawesome.com/7e09908c25.js"></script>
-     <!-- Google Fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-     <!-- CSS Sheet -->
-     <link rel="stylesheet" href="css/main.css">
-     <title>Jose G. Torres | UI/UX Developer</title>
-</head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/cover.png" alt="portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-<body>
-     <h1>Portfolio</h1>
-</body>
+        <!-- Header Content -->
+        <div class="header-content">
+          <h1>
+            I'm
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Jose G. Torres", "A Full-Stack Web Developer"]'
+            ></span>
+          </h1>
+          <p class="lead">I specialize in CSS frameworks and JavaScript</p>
+          <a href="work.html" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </header>
 
+    <!-- JavaScript - Type Effect -->
+    <script src="js/typewriter.js"></script>
+  </body>
 </html>
