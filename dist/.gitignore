@@ -1,1 +1,2 @@
+# Avoides pushing node modules to gitHub - People would have to npm install (packages)
 node_modules
