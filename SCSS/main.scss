@@ -208,6 +208,8 @@ img {
         "bioimage bio bio"
         "aw1 aw2 aw3";
       grid-gap: 1.2rem;
+      
+      
     }
 
     // Grid Areas
@@ -219,6 +221,7 @@ img {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+      
     }
 
     .award-1 {
