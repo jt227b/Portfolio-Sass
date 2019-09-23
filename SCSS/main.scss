@@ -220,7 +220,7 @@ img {
     .bio {
       grid-area: bio;
       border-left: 3px solid $main-color;
-      padding: 0.8rem;
+      padding: 2rem;
       
     }
 
@@ -266,9 +266,12 @@ img {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2rem;
+      align-items: center;
 
       img {
-        width: 70%;
+        width: 40%;
+        padding-left: 25%
+        
       }
     }
   }

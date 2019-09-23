@@ -19,5 +19,6 @@
   "homepage": "https://github.com/jt227b/Portfolio-Sass#readme",
   "devDependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "dependencies": {}
 }

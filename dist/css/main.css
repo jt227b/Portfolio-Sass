@@ -301,7 +301,7 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.8rem; }
+  padding: 2rem; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -333,9 +333,11 @@ img {
 #about-c .about-logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
+  grid-gap: 2rem;
+  align-items: center; }
   #about-c .about-logos img {
-    width: 70%; }
+    width: 40%;
+    padding-left: 25%; }
 
 #about-d .testimonials {
   display: grid;
