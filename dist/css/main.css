@@ -413,6 +413,16 @@ img {
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
 
+        .social-work{
+          padding: 1rem;
+          text-align: center;
+          justify-content: space-between;
+          color: #fff;
+          
+        }
+
+        .social-work:hover {color: #333; }
+
 @media (max-width: 800px) {
   #header-home {
     height: 30rem; }
